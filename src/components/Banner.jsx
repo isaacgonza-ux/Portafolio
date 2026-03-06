@@ -56,7 +56,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bienvenido a mi portafolio</span>
                 <h1>{`Hola soy Isaac`} <span className="txt-rotate" dataPeriod="2000" data-rotate='[ "Desarrollador Fullstack" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Desarrollador Full-Stack enfocado en la creación de aplicaciones web y móviles android. Aplico la ingeniería de requisitos y software para obtener las necesidades del usuario, planifico y diseño el software para una construcción más eficiente, hago análisis estadístico de datos, levanto microservicios en Java, optimizo procesos en bases de datos relacionales, creo interfaces dinámicas en React y una vez finalizado el proyecto puedo desplegarlo en la nube. Mi objetivo es entregar soluciones tecnológicas a la medida que impulsen el crecimiento de los negocios."</p>
+                  <p> Enfocado en la creación de aplicaciones web y móviles android. Aplico la ingeniería de requisitos y software para obtener las necesidades del usuario, planifico y diseño el software para una construcción más eficiente, hago análisis estadístico de datos, levanto microservicios en Java, optimizo procesos en bases de datos relacionales, creo interfaces dinámicas en React y una vez finalizado el proyecto puedo desplegarlo en la nube. Mi objetivo es entregar soluciones tecnológicas a la medida que impulsen el crecimiento de los negocios."</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

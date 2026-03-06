@@ -1,14 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
+
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import ksa from "../assets/img/ksa.png";
-import infinityplay from "../assets/img/infinityplay.png";
+import landing from "../assets/img/landing.png";
+import ecommerce from "../assets/img/ecommerce.png";
 import gym from "../assets/img/gym.png";
-import androidtienda from "../assets/img/androidtienda.png";
-import apirest from "../assets/img/apirest.webp";
+import appandroid from "../assets/img/appandroid.png";
+import auth from "../assets/img/auth.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -18,19 +17,19 @@ export const Projects = () => {
     {
       title: "LandingPage Corporativa",
       description: "Diseñada e implementada para empresa de seguridad. Interfaz responsiva en React con integración de EmailJS para gestión automatizada de contacto.",
-      imgUrl: ksa,
-      link:"https://ksasecurity.cl/"
+      imgUrl:landing ,
+      link:"https://ksasecurity.cl"
     },
     {
       title: "Ecommerce de videojuegos",
       description: "Plataforma de venta de videojuegos digitales. Hecha con React, ademas se uso bootstrap y cuenta con una interfaz responsiva, cuenta tambien con un backend hecho en java con spring boot y mysql. (La versión desplegada solo es frontend.)",
-      imgUrl: infinityplay,
+      imgUrl: ecommerce,
       link:"https://tiendareactvideojuegos.pages.dev"
     },
     {
       title: "App Android de E-commerce",
       description: "Aplicación nativa en Kotlin con consumo de API REST. Conectada a un backend propio (Java/Spring Boot) y ademas consume una Api pública para mostrar catalogo de videojuegos.",
-      imgUrl: androidtienda,
+      imgUrl: appandroid,
       link:"https://github.com/isaacgonza-ux/app_videojuegos"
     },
     {
@@ -42,7 +41,7 @@ export const Projects = () => {
     {
       title: "Api Rest autenticación",
       description: "Microservicio backend para gestión de identidades y roles. Implementa autenticación segura con Spring Security, soportado por bases de datos relacionales (MySQL/Oracle).",
-      imgUrl: apirest,
+      imgUrl: auth,
       link:"https://github.com/isaacgonza-ux/Autenticacion/tree/version-2"
     },
     {
