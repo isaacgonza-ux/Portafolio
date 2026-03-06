@@ -7,6 +7,10 @@
   import frontend from '../assets/img/frontend.png';
   import android from '../assets/img/android.png';
   import deploy from '../assets/img/deploy.png';
+  import ing from '../assets/img/ing.png';
+  import math from '../assets/img/math.png';
+
+
 
 
 
@@ -47,13 +51,13 @@ const mySkills = [
     {
       id: 6,
       nombre: "Matemáticas Aplicadas y Datos",
-      imagen: deploy, 
+      imagen: math, 
       descripcion: "matemáticas aplicadas y estadística integrados con programación en Python. Utilizo librerías especializadas como NumPy, Pandas y Matplotlib para el análisis, manipulación y visualización de datos."
     },
      {
       id: 7,
       nombre: "Ingeniería de requisitos y software",
-      imagen: deploy, 
+      imagen: ing, 
       descripcion: "Aplico principios de Ingeniería de Software para gestionar el ciclo de vida completo de un proyecto. Especializado en el levantamiento y estructuración de requisitos funcionales y no funcionales para diseñar soluciones técnicas a la medida. Mi enfoque se centra en alinear el desarrollo con las necesidades operativas reales, creando sistemas eficientes para negocios  que optimizan procesos clave, como la atención al cliente y la generación de boletas."
     }
   ];

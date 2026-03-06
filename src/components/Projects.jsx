@@ -4,6 +4,11 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import ksa from "../assets/img/ksa.png";
+import infinityplay from "../assets/img/infinityplay.png";
+import gym from "../assets/img/gym.png";
+import androidtienda from "../assets/img/androidtienda.png";
+import apirest from "../assets/img/apirest.webp";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,34 +16,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "LandingPage Corporativa",
+      description: "Diseñada e implementada para empresa de seguridad. Interfaz responsiva en React con integración de EmailJS para gestión automatizada de contacto.",
+      imgUrl: ksa,
+      link:"https://ksasecurity.cl/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Ecommerce de videojuegos",
+      description: "Plataforma de venta de videojuegos digitales. Hecha con React, ademas se uso bootstrap y cuenta con una interfaz responsiva, cuenta tambien con un backend hecho en java con spring boot y mysql. (La versión desplegada solo es frontend.)",
+      imgUrl: infinityplay,
+      link:"https://tiendareactvideojuegos.pages.dev"
+    },
+    {
+      title: "App Android de E-commerce",
+      description: "Aplicación nativa en Kotlin con consumo de API REST. Conectada a un backend propio (Java/Spring Boot) y ademas consume una Api pública para mostrar catalogo de videojuegos.",
+      imgUrl: androidtienda,
+      link:"https://github.com/isaacgonza-ux/app_videojuegos"
+    },
+    {
+      title: "Software de gestión",
+      description: "Sistema de escritorio para la gestión de clientes en gimnasios. Interfaz gráfica desarrollada en Java Swing con persistencia en MySQL.",
+      imgUrl: gym,
+      link:"https://github.com/isaacgonza-ux/Gimnasio-"
+    },
+    {
+      title: "Api Rest autenticación",
+      description: "Microservicio backend para gestión de identidades y roles. Implementa autenticación segura con Spring Security, soportado por bases de datos relacionales (MySQL/Oracle).",
+      imgUrl: apirest,
+      link:"https://github.com/isaacgonza-ux/Autenticacion/tree/version-2"
     },
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      link:""
     },
   ];
 
@@ -51,7 +62,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p></p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
